@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+header {
+    padding: 10px;
+    margin: 10px;
+}
+
+#send, #result {
+    text-align: center;
+}
+
+@media (orientation: portrait) and (max-width: 400px) { /*スマホ縦*/
+    body {
+        width: 100%;
+    }
+
+    footer, #send, #err_div, #result {
+        width: 90%;
+        padding: 10px;
+    }
+
+    #send_btn {
+        font-size: 1.5em;
+    }
+
+    #err {
+        font-size: 4em;
+    }
+
+    #err_msg {
+        font-size: 2rem;
+        margin: 30px 10px 30px 10px;
+    }
+
+
+    #result {
+        width: 95%;
+        margin: auto;
+    }
+
+    #result p {
+        text-align: center;
+    }
+
+    #penguin_name {
+        font-size: 2.2rem;
+    }
+
+    #img img {
+        width: 90%;
+        height: auto;
+    }
+}

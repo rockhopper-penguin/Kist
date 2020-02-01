@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+	<form method="post" action="/send" enctype="multipart/form-data" id="send">
+		<input type="file"  class="btn btn-info m-2" id="img_file" name="img_file">
+		<input type="submit" value="送信" class="btn btn-info m-2" id="send_btn">
+	</form>
+{% endblock %}

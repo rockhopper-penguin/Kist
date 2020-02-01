@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+    <div id="result">
+        <p id="penguin_name">{{ result }}</p>
+        <p id="img">
+            {% if raw_img_url %}
+            <img src="{{ raw_img_url }}">
+            {% endif %}
+        </p>
+        <h1><a href="/">戻る</a></h1>
+    </div>
+{% endblock %}
