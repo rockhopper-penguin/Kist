@@ -51,12 +51,12 @@ sudo apt install python3-opencv
 # 動かし方　※Ubuntu 18.04.3 LTSでの場合
 ## 任意のディレクトリに移動し、リポジトリからクローンする。
 ```
-git clone https://github.com/rockhopper-penguin/Penguin-classifier.git
+git clone https://github.com/rockhopper-penguin/Kist.git
 ```
 
 ## クローンしたフォルダに移動。
 ```
-cd Penguin-classifier
+cd Kist
 ```
 
 ## 実行！
