@@ -18,6 +18,11 @@ header {
     text-align: center;
 }
 
+#err {
+    color: rgb(211, 0, 0);
+    font-size: 5rem;
+}
+
 @media (orientation: portrait) and (max-width: 400px) { /*スマホ縦*/
     body {
         width: 100%;
