@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+@font-face {
+	font-family: M_PLUS_1p;
+	src: url('../font/MPLUS1p-Regular.ttf') format("truetype");
+}
+
+body {
+    font-family: 'M_PLUS_1p';
+}
+
 header {
     padding: 10px;
     margin: 10px;
