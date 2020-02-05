@@ -23,6 +23,15 @@ header {
     font-size: 5rem;
 }
 
+#err_div h1 {
+    padding: 20px;
+}
+
+.fa-chevron-circle-left {
+    color: black;
+    margin: 10px;
+}
+
 @media (orientation: portrait) and (max-width: 400px) { /*スマホ縦*/
     body {
         width: 100%;
@@ -46,6 +55,9 @@ header {
         margin: 30px 10px 30px 10px;
     }
 
+    #err_div h1 {
+        padding: 10px;
+    }
 
     #result {
         width: 95%;
