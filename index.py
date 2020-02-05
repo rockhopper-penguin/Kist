@@ -147,7 +147,7 @@ def send():
 				result = labels[i] + "ペンギンの確立：" + str(results[i]) + "%"
 			print(result)
 			for j in debug:
-				print(labels[j] + "ペンギン→" + str(results[j]) + "%")
+				print(labels[j] + "ペンギン → " + str(results[j]) + "%")
 
 		return render_template('result.html', result = result, raw_img_url=raw_img_url)
 
