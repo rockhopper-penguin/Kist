@@ -13,7 +13,7 @@ import time
 import numpy as np
 import cv2
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory, session
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 #ライセンス
